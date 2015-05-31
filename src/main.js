@@ -1,12 +1,27 @@
+import {println, printMap} from 'lib/utils';
+import {Test} from 'lib/test';
 
-import {println} from 'lib/utils';
 
-class Test {
+let test = new Test(1,2,3);
 
-    test() {
-        return [1,2,3].map(v => v + ": ");
-    }
+println ( test.test() );
+printMap( test.map()  );
+
+let hooman;
+
+{
+    let first='bob',
+        last = 'dole';
+
+    hooman = { first, last };
+
+    println ( hooman );
 }
 
-var test = new Test;
-println( test.test() );
+{
+    println(first);
+    let { first, last } = hooman;
+
+    println ( first );
+    println ( last );
+}

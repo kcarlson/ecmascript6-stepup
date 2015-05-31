@@ -11,6 +11,7 @@ module.exports = function(grunt) {
         clean: ['dist'],
         babel: {
             options: {
+                sourceMaps: true,
                 modules: 'amd',
                 stage: 4
             },
