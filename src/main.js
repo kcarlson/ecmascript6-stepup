@@ -25,3 +25,17 @@ let hooman;
     println ( first );
     println ( last );
 }
+
+
+function tag(strings, ...values) {
+    for (let str of strings) {
+        console.log(str);
+    }
+    for (let val of values) {
+        console.log(val);
+    }
+}
+
+let a = 'stuff', b = 'freaking';
+
+tag`This ${a} is ${b} awesome!`
