@@ -36,6 +36,20 @@ function tag(strings, ...values) {
     }
 }
 
-let a = 'stuff', b = 'freaking';
+let a= 'stuff', b = 'freaking';
 
 tag`This ${a} is ${b} awesome!`
+
+
+function* gen() {
+    yield 1;
+    yield 2;
+    yield 3;
+}
+
+let generator = gen();
+
+console.log(generator.next());
+console.log(generator.next());
+console.log(generator.next());
+console.log(generator.next());
