@@ -9,3 +9,4 @@
   + `grunt`
   + `grunt watch &`
   + `npm start`
++ För att enabla vissa ecmascript 6 features i chrome, enabla [enable-javascript-harmony flaggan](chrome://flags/#enable-javascript-harmony)
