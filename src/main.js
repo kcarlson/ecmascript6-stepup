@@ -7,6 +7,9 @@ let test = new Test(1,2,3);
 println ( test.test() );
 printMap( test.map()  );
 
+test.prop = "setter";
+console.log("getter: " + test.prop);
+
 let hooman;
 
 {

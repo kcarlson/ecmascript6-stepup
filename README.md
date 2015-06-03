@@ -5,5 +5,6 @@
 + Kräver att nodejs är installerat
 + För att starta kör
   + `npm install`
+  + `grunt`
   + `grunt watch &`
   + `npm start`
