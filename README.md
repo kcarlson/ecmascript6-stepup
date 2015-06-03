@@ -5,6 +5,7 @@
 + Kräver att nodejs är installerat
 + För att starta kör
   + `npm install`
+  + `sudo npm install -g grunt-cli`
   + `grunt`
   + `grunt watch &`
   + `npm start`
